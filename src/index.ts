@@ -12,9 +12,9 @@ const config = [
         message: 'Do you need some guidance? We are happy to help you out.',
         cta: [
             {
-                label: 'Meet us',
+                label: 'How to Post in Community Board Booth?',
                 className: 'primary',
-                callback: () => WA.openTab('https://play.staging.workadventu.re/@/tcm/workadventure/wa-village'),
+                callback: () => WA.openTab('https://www.canva.com/design/DAEley9knFk/view?embed'),
             }
         ]
     },
