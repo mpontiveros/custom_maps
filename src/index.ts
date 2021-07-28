@@ -4,7 +4,7 @@
 console.log('Script started successfully');
 
 let currentZone: string;
-//let currentPopup: any;
+let cPopup: any;
 
 const config = [
     {
@@ -37,18 +37,18 @@ const config = [
 ]
 
 
-WA.onEnterZone('needHelp', () => {
+WA.room.onEnterZone('needHelp', () => {
     currentZone = 'needHelp'
     openPopup(currentZone, currentZone + 'Popup')
 });
-WA.onLeaveZone('needHelp', closePopup)
+WA.room.onLeaveZone('needHelp', closePopup)
 
 
-WA.onEnterZone('followUs', () => {
+WA.room.onEnterZone('followUs', () => {
     currentZone = 'followUs'
     openPopup(currentZone, currentZone + 'Popup')
 });
-WA.onLeaveZone('followUs', closePopup)
+WA.room.onLeaveZone('followUs', closePopup)
 
 
 function openPopup(zoneName: string, popupName: string) {
@@ -57,12 +57,12 @@ function openPopup(zoneName: string, popupName: string) {
     });
     if (typeof zone !== 'undefined') {
         // @ts-ignore otherwise we can't use zone.cta object
-        currentPopup = WA.openPopup(popupName, zone.message, zone.cta)
+        cPopup = WA.ui.openPopup(popupName, zone.message, zone.cta)
     }
 }
 function closePopup(){
     if (typeof currentPopup !== undefined) {
-        currentPopup.close();
-        currentPopup = undefined;
+        cPopup.close();
+        cPopup = undefined;
     }
 }
