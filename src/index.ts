@@ -41,12 +41,14 @@ WA.onEnterZone('needHelp', () => {
     currentZone = 'needHelp'
     openPopup(currentZone, currentZone + 'Popup')
 });
+WA.onLeaveZone('needHelp', closePopup)
+
+
 WA.onEnterZone('followUs', () => {
     currentZone = 'followUs'
     openPopup(currentZone, currentZone + 'Popup')
 });
-WA.onLeaveZone('needHelp', closePopup);
-WA.onLeaveZone('followUs', closePopup);
+WA.onLeaveZone('followUs', closePopup)
 
 
 function openPopup(zoneName: string, popupName: string) {
