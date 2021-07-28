@@ -23,14 +23,14 @@ const config = [
         message: 'Hey! Have you already started following us?',
         cta: [
             {
-                label: 'LinkedIn',
+                label: 'Facebook',
                 className: 'primary',
-                callback: () => WA.openTab('https://www.linkedin.com/company/workadventu-re'),
+                callback: () => WA.openTab('https://web.facebook.com/DPSM.CAS.UPM'),
             },
             {
-                label: 'Twitter',
+                label: 'Web Page',
                 className: 'primary',
-                callback: () => WA.openTab('https://twitter.com/workadventure_'),
+                callback: () => WA.openTab('https://dpsm.cas.upm.edu.ph/dpsmweek2021/index.html'),
             }
         ]
     },
