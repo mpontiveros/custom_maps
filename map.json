@@ -728,6 +728,15 @@
                         }]
                 }, 
                 {
+                 "id":91,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.canva.com\/design\/DAElaSBgnXo\/view?embed"
+                        }]
+                }, 
+                {
                  "id":93,
                  "properties":[
                         {
@@ -796,7 +805,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.canva.com\/design\/DAElaSBgnXo\/view?embed"
+                         "value":"https:\/\/www.canva.com\/design\/DAElklzCngY\/watch?embed"
                         }]
                 }, 
                 {
