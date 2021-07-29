@@ -469,7 +469,7 @@
                  "text":
                     {
                      "color":"#ffffff",
-                     "text":"S4 Booth",
+                     "text":"A4 Booth",
                      "wrap":true
                     },
                  "type":"",
@@ -710,6 +710,15 @@
                         }]
                 }, 
                 {
+                 "id":61,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.canva.com\/design\/DAElkoO2I-0\/watch?embed"
+                        }]
+                }, 
+                {
                  "id":67,
                  "properties":[
                         {
@@ -725,6 +734,15 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.canva.com\/design\/DAElYIcexfA\/view?embed"
+                        }]
+                }, 
+                {
+                 "id":85,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.canva.com\/design\/DAEleux5_wc\/view?embed"
                         }]
                 }, 
                 {
@@ -755,6 +773,15 @@
                         }]
                 }, 
                 {
+                 "id":109,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.canva.com\/design\/DAEleGcpPXY\/view?embed"
+                        }]
+                }, 
+                {
                  "id":115,
                  "properties":[
                         {
@@ -779,6 +806,15 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/padlet.com\/embed\/7zdjwcp8gr02mus1"
+                        }]
+                }, 
+                {
+                 "id":133,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/padlet.com\/embed\/zr0ylhe55ii1x8jx"
                         }]
                 }, 
                 {
