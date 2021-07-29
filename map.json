@@ -791,6 +791,15 @@
                         }]
                 }, 
                 {
+                 "id":165,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.canva.com\/design\/DAEljllHxLI\/watch?embed"
+                        }]
+                }, 
+                {
                  "id":175,
                  "properties":[
                         {
@@ -802,6 +811,24 @@
                          "name":"openWebsitePolicy",
                          "type":"string",
                          "value":"fullscreen"
+                        }]
+                }, 
+                {
+                 "id":187,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.canva.com\/design\/DAElj9TXEk4\/view?embed"
+                        }]
+                }, 
+                {
+                 "id":189,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.canva.com\/design\/DAEljtAbGps\/view?embed"
                         }]
                 }, 
                 {
@@ -834,6 +861,15 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.canva.com\/design\/DAElX8eNS1g\/view?embed"
+                        }]
+                }, 
+                {
+                 "id":213,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.canva.com\/design\/DAEljvnPhaw\/view?embed"
                         }]
                 }, 
                 {
