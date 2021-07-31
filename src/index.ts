@@ -76,9 +76,10 @@ function openPopup(zoneName: string, popupName: string) {
     }
 }
 
-WA.ui.registerMenuCommand("Vote for Crowd Favorite! (Student Cluster)", () => {
+WA.ui.registerMenuCommand("Vote", () => {
     WA.nav.openTab('https://pollunit.com/polls/tqikaonp7phmh8hn30edsw')
 })
+
 
 function closePopup(){
     if (typeof currentPopup !== undefined) {
