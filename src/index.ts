@@ -74,6 +74,11 @@ WA.room.onEnterZone('needHelp', () => {
 });
 WA.room.onLeaveZone('needHelp', closePopup)
 
+WA.room.onEnterZone('Information', () => {
+    currentZone = 'Information'
+    openPopup(currentZone, currentZone + 'Popup')
+})
+WA.room.onLeaveZone('Information', closePopup)
 
 WA.room.onEnterZone('followUs', () => {
     currentZone = 'followUs'
@@ -96,6 +101,9 @@ WA.ui.registerMenuCommand("Vote", () => {
     WA.nav.openTab('https://pollunit.com/polls/tqikaonp7phmh8hn30edsw')
 })
 
+WA.ui.registerMenuCommand("Raffle", () => {
+    WA.nav.openTab('https://padlet.com/cylim1/GameRaffle')
+})
 
 function closePopup(){
     if (typeof currentPopup !== undefined) {
