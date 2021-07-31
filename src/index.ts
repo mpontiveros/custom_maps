@@ -14,23 +14,38 @@ const config = [
             {
                 label: 'How to Post in Community Board Booth?',
                 className: 'primary',
-                callback: () => WA.openTab('https://www.canva.com/design/DAEley9knFk/view?embed'),
+                callback: () => WA.nav.openTab('https://www.canva.com/design/DAEley9knFk/view?embed'),
+            },
+            {
+                label: 'How to use Q&A Boards?',
+                className: 'primary',
+                callback: () => WA.nav.openTab('https://www.canva.com/design/DAElsaImtjE/watch?embed'),
             }
         ]
     },
     {
         zone: 'followUs',
-        message: 'Hey! Have you already started following us?',
+        message: 'Love what you are seeing?',
         cta: [
             {
-                label: 'Facebook',
+                label: 'Like our Facebook Page‎',
                 className: 'primary',
-                callback: () => WA.openTab('https://web.facebook.com/DPSM.CAS.UPM'),
+                callback: () => WA.nav.openTab('https://web.facebook.com/DPSM.CAS.UPM'),
             },
             {
-                label: 'Web Page',
+                label: 'See our DPSM Week Website',
                 className: 'primary',
-                callback: () => WA.openTab('https://dpsm.cas.upm.edu.ph/dpsmweek2021/index.html'),
+                callback: () => WA.nav.openTab('https://dpsm.cas.upm.edu.ph/dpsmweek2021/index.html'),
+            }, 
+            {
+                label: 'Thanks to our Sponsors!',
+                className: 'primary',
+                callback: () => WA.nav.openTab('https://www.canva.com/design/DAElxLEl5Ik/watch?embed')
+            },
+            {
+                label: 'Vote for Crowd Favorite (Student Cluster)',
+                className: 'primary',
+                callback: () => WA.nav.openTab('https://pollunit.com/polls/tqikaonp7phmh8hn30edsw')
             }
         ]
     },
@@ -60,6 +75,11 @@ function openPopup(zoneName: string, popupName: string) {
         cPopup = WA.ui.openPopup(popupName, zone.message, zone.cta)
     }
 }
+
+WA.ui.registerMenuCommand("Vote for Crowd Favorite! (Student Cluster)", () => {
+    WA.nav.openTab('https://pollunit.com/polls/tqikaonp7phmh8hn30edsw')
+})
+
 function closePopup(){
     if (typeof currentPopup !== undefined) {
         cPopup.close();
