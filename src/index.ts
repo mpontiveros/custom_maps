@@ -8,6 +8,22 @@ let cPopup: any;
 
 const config = [
     {
+        zone: 'Information',
+        message: 'Do you need some guidance? We are happy to help you out.',
+        cta: [
+            {
+                label: 'Announcements',
+                className: 'primary',
+                callback: () => WA.nav.openTab('https://www.canva.com/design/DAElrOJEBho/OBzTVmZnXdG8hRMTGG_oFA/view?utm_content=DAElrOJEBho&utm_campaign=designshare&utm_medium=link&utm_source=viewer'),
+            },
+            {
+                label: 'Map',
+                className: 'primary',
+                callback: () => WA.nav.openTab('https://www.canva.com/design/DAElznOavUM/eYHdEWD-UkUfNTWeJUlWsg/watch?utm_content=DAElznOavUM&utm_campaign=designshare&utm_medium=link&utm_source=viewer'),
+            }
+        ]
+    },
+    {
         zone: 'needHelp',
         message: 'Do you need some guidance? We are happy to help you out.',
         cta: [
