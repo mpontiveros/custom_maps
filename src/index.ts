@@ -12,6 +12,11 @@ const config = [
         message: 'Do you need some guidance? We are happy to help you out.',
         cta: [
             {
+                label: 'How to Navigate',
+                className: 'primary',
+                callback: () => WA.nav.openTab('https://www.canva.com/design/DAEl4ixLWKA/watch?embed')
+            },
+            {
                 label: 'Announcements',
                 className: 'primary',
                 callback: () => WA.nav.openTab('https://www.canva.com/design/DAElrOJEBho/OBzTVmZnXdG8hRMTGG_oFA/view?utm_content=DAElrOJEBho&utm_campaign=designshare&utm_medium=link&utm_source=viewer'),
@@ -61,7 +66,7 @@ const config = [
             {
                 label: 'Vote for Crowd Favorite (Student Cluster)',
                 className: 'primary',
-                callback: () => WA.nav.openTab('https://pollunit.com/polls/tqikaonp7phmh8hn30edsw')
+                callback: () => WA.nav.openTab('https://forms.gle/giaW5NdDBvStr85Z8')
             }
         ]
     },
@@ -98,12 +103,17 @@ function openPopup(zoneName: string, popupName: string) {
 }
 
 WA.ui.registerMenuCommand("Vote", () => {
-    WA.nav.openTab('https://pollunit.com/polls/tqikaonp7phmh8hn30edsw')
+    WA.nav.openTab('https://forms.gle/giaW5NdDBvStr85Z8')
 })
 
 WA.ui.registerMenuCommand("Raffle", () => {
     WA.nav.openTab('https://padlet.com/cylim1/GameRaffle')
 })
+
+WA.ui.registerMenuCommand("Tutorial", () => {
+    WA.nav.openTab('https://www.canva.com/design/DAEl4ixLWKA/watch?embed')
+})
+
 
 function closePopup(){
     if (typeof currentPopup !== undefined) {
