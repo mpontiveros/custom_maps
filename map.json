@@ -22,7 +22,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -34,7 +34,7 @@
          "name":"collide",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -57,7 +57,7 @@
                  "value":"src\/assets\/bensound-thelounge.mp3"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -80,7 +80,7 @@
                  "value":"onaction"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -103,7 +103,7 @@
                  "value":"onaction"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -126,7 +126,7 @@
                  "value":"onaction"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -154,7 +154,7 @@
                  "value":"speaker"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -178,7 +178,7 @@
          "name":"floor_01",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -190,7 +190,7 @@
          "name":"floor_02",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -202,7 +202,7 @@
          "name":"walls_01",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -214,7 +214,7 @@
          "name":"walls_02",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -232,7 +232,7 @@
                  "value":"Information"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -244,7 +244,7 @@
          "name":"communityBoardZone",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -256,7 +256,7 @@
          "name":"objects_01",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -268,7 +268,7 @@
          "name":"objects_02",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -280,7 +280,7 @@
          "name":"objects_03",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -292,7 +292,7 @@
          "name":"ui_elements",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -310,7 +310,7 @@
                  "value":"needHelp"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -328,7 +328,7 @@
                  "value":"followUs"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -373,7 +373,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -588,7 +588,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -599,7 +599,7 @@
          "name":"override",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
@@ -611,7 +611,7 @@
          "name":"override_02",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":65,
          "x":0,
          "y":0
