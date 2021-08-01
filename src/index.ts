@@ -15,7 +15,7 @@ const config = [
                 label: 'How to Navigate',
                 className: 'primary',
                 callback: () => WA.nav.openTab('https://www.canva.com/design/DAEl4ixLWKA/watch?embed')
-            }
+            },
             {
                 label: 'Announcements',
                 className: 'primary',
