@@ -110,6 +110,11 @@ WA.ui.registerMenuCommand("Raffle", () => {
     WA.nav.openTab('https://padlet.com/cylim1/GameRaffle')
 })
 
+WA.ui.registerMenuCommand("Tutorial", () => {
+    WA.nav.openTab('https://www.canva.com/design/DAEl4ixLWKA/watch?embed')
+})
+
+
 function closePopup(){
     if (typeof currentPopup !== undefined) {
         cPopup.close();
